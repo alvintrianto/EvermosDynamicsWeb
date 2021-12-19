@@ -45,8 +45,9 @@ pip install --upgrade robotframework-seleniumlibrary
 10. Save the web driver in directory : ```C:\Users\[user]\AppData\Local\Programs\Python\Python39\```
 12. Clone this repo to your directory
 13. Open the directory from cmd/terminal with command ```cd [User dir]\EvermosDynamicsWeb```
-14. Run the automation with command ```robot Features\```
-15. Open the automation report from file ```report.html```
+14. Run all the automation with command ```robot Features\```
+15. If you want to run only one feature type command ```robot Features\[file_name].robot```
+16. Check the automation reports from the file ```report.html```
 
 ***Version 1.0 features***
 - Homepage
@@ -58,7 +59,7 @@ pip install --upgrade robotframework-seleniumlibrary
 
 **REPO DIRECTORY GUIDE**   
 ```
-- Features : Consist of robot framework based automation for Evermos Features. if you want to add more features just add new file with name [new_feature.robot]
-- Resource : Consist of resource and locator of the web elements. if you want to add more locator and resource just add new file with name [new_locator.yaml] and import to .robot file in Features```
+- Features : Consist of robot framework based automation for Evermos Features. If you want to add more features just add new file with name [new_feature].robot
+- Resource : Consist of resource and locator of the web elements. If you want to add more locator and resource just add new file with name [new_locator].yaml and import to .robot file in /Features```
 ```
 
