@@ -47,8 +47,17 @@ pip install --upgrade robotframework-seleniumlibrary
 14. Run the automation with command ```robot Features\```
 15. Open the automation report from file ```report.html```
 
+***Version 1.0 features***
+- Homepage
+- Cart
+- Address
+- Search
+- Product detail
+
+
 **REPO DIRECTORY GUIDE**   
 ```
 - Features : Consist of robot framework based automation for Evermos Features. if you want to add more features just add new file with name [new_feature.robot]
 - Resource : Consist of resource and locator of the web elements. if you want to add more locator and resource just add new file with name [new_locator.yaml] and import to .robot file in Features```
+```
 
