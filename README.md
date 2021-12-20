@@ -49,7 +49,7 @@ pip install --upgrade robotframework-seleniumlibrary
 15. If you want to run only one feature type command ```robot Features\[file_name].robot```
 16. Check the automation reports from the file ```report.html```
 
-***Version 1.0 features***
+***Version 1.1 features***
 - Homepage
 - Cart
 - Address
