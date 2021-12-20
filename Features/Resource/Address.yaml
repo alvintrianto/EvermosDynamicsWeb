@@ -1,0 +1,16 @@
+#Menu bar 
+menu_akun : //*[@id="__layout"]/div/div[7]/div/a[4]
+
+#account menu list
+address_page : //*[@id="__layout"]/div/div[2]/div/a[2]
+
+#Add address fields form
+add_address : //*[@class='btn btn--success btn--large btn--block']
+address_title_form : //*[@id="__layout"]/div/div[2]/form/label[1]/span[2]/input
+address_name_form : //*[@id="__layout"]/div/div[2]/form/label[2]/span[2]/input
+address_phone_form : //*[@id="__layout"]/div/div[2]/form/label[3]/span[2]/input
+address_choose : //*[@id="__layout"]/div/div[2]/form/div/label/a
+address_choose_search : //*[@id="__layout"]/div/div[2]/form/div/div/div/div[2]/form/input
+address_choose_pick : //*[@id="__layout"]/div/div[2]/form/div/div/div/div[2]/div/a[5]
+address_detail_form : //*[@id="__layout"]/div/div[2]/form/label[4]/span[2]/input
+save_address : //*[@id="__layout"]/div/div[3]/div/button
