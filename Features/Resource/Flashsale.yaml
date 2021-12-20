@@ -1,4 +1,0 @@
-flashsale_brand_choose  : xpath=//*[@class='appSection__title']
-flashsale_brand         : //*[@id="__layout"]/div/div[2]/div[1]/div/div[1]/div/a[3] #Brand can be changed
-flashsale_list          : xpath=//*[@class='appSection__link family-Roboto']
-flashsale_product       : xpath=//*[@id="__layout"]/div/div[2]/div[2]/div[2]/div/div[2]/div[1]/div[1]/a #User choose second product in FlashSale List
