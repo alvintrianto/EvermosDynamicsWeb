@@ -51,7 +51,7 @@ User see Flashsale product by Brand
     click element                                   ${flashsale_brand_choose}  
     sleep                                           1s
     click element                                   ${flashsale_brand} 
-    wait until page contains                        Sahabah Store
+    wait until page contains                        Indahcraft
     Closing browser
 
 User pick one product in flashsale list

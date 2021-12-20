@@ -21,9 +21,10 @@ User add product to cart list
     click element                                   ${brand_choose}
     sleep                                           1s
     click element                                   ${product_choose}
-    sleep                                           1s
+    sleep                                           2s
     click element                                   ${addtocart}
-    sleep                                           4s
+    sleep                                           5s
+    wait until page contains                        Lihat Keranjang
     click element                                   ${seecart}
     wait until page contains                        Toko MQ Nutri Goat Susu Kambing ( Promo Get 1 ) 200gr Putih Biru
 
@@ -63,6 +64,7 @@ User add product notes
     Sleep                                           2s
     Input Text                                      ${productCartNote_field}      Kantong kresek double
     click element                                   ${productCartNote_confirm}
+    sleep                                           5s
     wait until page contains                        Kantong kresek double
     closing browser
 
