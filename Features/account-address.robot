@@ -8,7 +8,6 @@ Variables                                          ../Resource/CartLocator.yaml
 *** Keywords ***
 Open toko homepage 
     Open browser                                    ${url}    ${browser}
-    Wait until page contains                        QA Candidate
     sleep                                           2s
 Closing browser
     Close browser
@@ -34,8 +33,9 @@ User input new address form
     click element                                   ${save_address} 
     Sleep                                           2s
 Choose Ok On Next Confirmation      
-    Click Element   xpath=//a[contains(.,'OK')]
-    Confirm Action 
+    Handle Alert                                    action=ACCEPT
+    wait until page contains                        Berhasil
+    click element                                   ${confirm_adress}
 
 ***Test Cases***
 

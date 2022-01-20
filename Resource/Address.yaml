@@ -14,3 +14,5 @@ address_choose_search : //*[@id="__layout"]/div/div[2]/form/div/div/div/div[2]/f
 address_choose_pick : //*[@id="__layout"]/div/div[2]/form/div/div/div/div[2]/div/a[5]
 address_detail_form : //*[@id="__layout"]/div/div[2]/form/label[4]/span[2]/input
 save_address : //*[@id="__layout"]/div/div[3]/div/button
+
+confirm_adress : //button[@class='btn btn--small btn--brand']
