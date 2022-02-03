@@ -14,7 +14,7 @@ ${product}                                          xpath=//*[contains(text(),'F
 *** Keywords ***
 Open toko homepage
     Open browser                                    ${url}    ${browser}
-    Wait until page contains                        QA Candidate
+  #  Wait until page contains                        QA Candidate
     sleep                                           2s
 Closing browser
     Close browser
